@@ -60,7 +60,7 @@ const GameSection = () => {
       </div>
 
       {/* 🎮 GAME PLAYER */}
-      {/* <div className="w-full min-h-[65vh] h-auto bg-black flex items-center justify-center rounded-xl overflow-hidden mb-6">
+      <div className="w-full min-h-[65vh] h-auto bg-black flex items-center justify-center rounded-xl overflow-hidden mb-6">
         {activeGame?.iframe ? (
           <iframe
             src={activeGame.iframe}
@@ -74,7 +74,7 @@ const GameSection = () => {
             <activeGame.component />
           </div>
         )}
-      </div> */}
+      </div>
 
       {/* SIMPLE HORIZONTAL SLIDER */}
       <div className="px-4">
